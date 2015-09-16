@@ -30,3 +30,13 @@ class Student(Person):
 		
 	def getAttr(self):
 		return major, level
+
+def main():
+	P = Person()
+	P.showCount()
+	
+	S = Student()
+	S.showCount()
+	
+if __name__ == "__main__":
+	main()
